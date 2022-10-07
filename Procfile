@@ -1,1 +1,1 @@
-$ heroku ps:scale web=1
+web: gunicorn project.wsgi --log-level debug
