@@ -27,7 +27,7 @@ SECRET_KEY = "django-insecure-zn@3)ar!9fw!g1!*9cdog3!j3p(3fqzsdy1tmpq7@esb-z$j7g
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['api-email-portfolio.herokuapp.com','localhost']
 
 
 # Application definition
